@@ -1,3 +1,4 @@
+package edu.umb.cs681.hw07;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 import java.util.LinkedList;
@@ -17,7 +18,7 @@ public class Checker implements Runnable{
 		System.out.println("The address of file system object I got hold of is : "+handle);
 	}	
 
-	public static void main(String ... args) {
+	public static void main(String[] args) {
 	
 		Checker child_object = new Checker();
 
