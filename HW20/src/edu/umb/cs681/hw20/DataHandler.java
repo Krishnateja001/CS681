@@ -10,7 +10,7 @@ public class DataHandler {
 
     public static void main(String[] args) {
 
-        Path path = Path.of("bos-housing.csv");
+        Path path = Path.of("src/edu/umb/cs681/hw20/bos-housing.csv");
 
 
         try {
